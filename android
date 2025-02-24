@@ -5,8 +5,8 @@ What is your idea of a good work day?
 Describe a difficult task you had at work and how you finished it.
 What makes code a clean code?
 
-Basics
-General 
+# Basics
+## General 
 Explain public static void main(String args[]) in Java ?
 What is the difference between abstract classes and interfaces?
  Can you create an instance of an abstract class /Interface?
@@ -18,7 +18,7 @@ Differentiate between this() and super() in Java.
 Name all of the data types?
 What is different between ArrayList & Array? Array is fixed size
 
-OOP
+## OOP
 What is inheritance
 What is a superclass?
 What is a subclass?
@@ -36,11 +36,8 @@ What is method overloading?
 What is method overriding?
 What is method overloading?
 What is method overriding?
-
-
-
-
-Exception 
+ 
+## Exception 
 What is the difference between an error and an exception?
 What is exception?
 How to handle exception?
@@ -51,7 +48,7 @@ What is NullPointerException?
 When ArithmeticException is thrown?
 What is throw does?
 
-More
+## More
 What is the base class of all classes “base class” c# /java /kotlin
 	Kolitn : they called it Any
 What is the Difference between == and Equals()
@@ -65,26 +62,9 @@ What are the different types of arguments(ref/value)?
 What is the singleton , why , and how?
 What is java/c# file extension?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Intermedium 
-What is OOP principles?
+ 
+# Intermedium 
+## What is OOP principles?
 Inheritance :
 Encapsulation: variable control should be done by the class, setter and getter will prevent the user from change the value as he want
 Polymorphism: Same Type Difference behavior 
@@ -115,7 +95,7 @@ What is utc date?
 Why they recommend to close db connections?
 Why store procedure faster than connections?
 
-APIS
+## APIS
 What is the REST VS soap?
 What is the REST action ?
 What is the REST codes?
@@ -123,7 +103,7 @@ What is a token?
 What are the advantages of JSON over XML?
 What is Serialization?
 
-GIT
+## GIT
 Explain push/commit/pull/PR
 What is git conflict?
 
@@ -141,8 +121,8 @@ What is git conflict?
 
 
 
-Advance
-What is Solid principle? 
+# Advance
+## What is Solid principle? 
  What is operator overloading?
 What is Generics , how it different from object type ? 
 What is  Type erasure?
@@ -157,7 +137,7 @@ Interfaces can define methods body
 Lamdas
 
 
-GIT
+## GIT
 What is the difference between fetch/pull? 	
 What is the difference between soft/hard/mixed? 	
 What is the different between, merge, rebase, squash, fast-forward?
@@ -168,8 +148,8 @@ What is the different between, merge, rebase, squash, fast-forward?
 
 
 
-Kotlin
-Basic
+# Kotlin
+## Basic
 What is new for  kotlin does not java do? ,  Why you should switch to Kotlin from Java?
 . What is the difference between the variable declaration with var and val?
 What is a data class in Kotlin?
@@ -181,23 +161,7 @@ What is an property?
 What is the default return type in koltin , and what is the equivalent in java?
 What is the equivalent java when statement in kotlin?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Intermedium 
+# Intermedium 
 What is the default arguments in kotlin?
 How to call top_level (fun,variable) form java?
 How to create Singleton classes?
@@ -251,12 +215,8 @@ What is the different between constructor parameter with/without val)
 
 
 
-
-
-
-
-Android
-Basics
+# Android
+## Basics
 What is Application class?
 What is AndroidManifest.xml? 
 What is the project structure of an Android Application? 
@@ -269,7 +229,7 @@ What is the difference between onCreate() and onStart()
 What is Activity / Fragment LifeCycle ?
 How to Translate in Android?
 
-Intermedium
+## Intermedium
 Why AsyncTask is bad , what the other option?
 How to do heavy operation?
 Why android app will crash if you do task in main thread?
@@ -294,7 +254,7 @@ When should you use a Fragment rather than an Activity?
 What is View in Android?
 What is Android Data Binding?
 
-Advance 
+## Advance 
 What is the difference between adding/replacing fragment in backstack
 How would you communicate between two Fragments?
 What is the difference between Serializable and Parcelable? Which is the best approach in Android?
@@ -323,7 +283,7 @@ Explain OkHttp Interceptor
 What gradle does?
 What progarud does?
 
-Android Unit Testing
+## Android Unit Testing
 What is Espresso? 
 What is Robolectric? 
 What are the disadvantages of using Robolectric? 
