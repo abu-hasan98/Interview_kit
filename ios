@@ -1,0 +1,123 @@
+## Base
+- What is your current notice period, and when would you be available to start?
+- Could you bring your own Mac and iPhone or beno should provide that for you?
+- What is your current role, and would you consider yourself a senior or junior in your position?
+- Could you please provide your expected salary range for this position, including your minimum and maximum expectations?
+- Why are you leaving your current job to interview at beno.com?
+
+## Class A
+- Explain the difference between 'let' and 'var' in Swift.
+- How would you explain the concept of optionals in Swift to a beginner?
+- What are the several methods for unwrapping an optional in Swift?
+- When would you use the guard keyword in Swift?
+- Why is it dangerous to fetch API requests on the main thread? What are the solutions?
+- What is threading and why is it important in iOS development?
+- What benefits does SwiftUI offer for iOS development?
+- describe the concept of lazy initialization in Swift.
+- How do you debug a Swift app?
+- do you think swiftui will kill storyboard one day?
+- What does the @State property wrapper do?
+- Does the order of SwiftUI modifiers matter?
+- Can you give some examples of where singletons might be a good idea?
+- How do Xcode Previews improve the speed of iOS development and what are they used for?
+
+## Class Active
+- What are the latest versions of iPhone, iOS, macOS, and Xcode?
+- How do you stay up to date with changes in Swift?
+- Do you have any favorite Swift newsletters or websites you read often?
+
+## Class AA
+- Why is immutability important?
+- Why does SwiftUI use structs for views?
+- How would you explain delegates to a new Swift developer?
+- Can you explain MVVM, and how it might be used on Apple's platforms?
+- How would you explain dependency injection to a junior developer?
+- What experience do you have of functional programming?OOP vs functional ?
+- What process do you take to perform code review?
+- What is an efficient way to cache data in memory?
+- How would you explain protocols to a new Swift developer?
+- What are property observers?
+- What does the @Published property wrapper do?
+- When would you use @StateObject versus @ObservedObject?
+- what is diff between structures as value types, while classes as reference types
+- When is the usage of a set more preferable than an array in ios Swift?
+- If you could have Apple add or improve one API, what would it be?
+
+
+## Class AAA
+- What is the difference between an extension and a protocol extension?
+- How has Swift changed since it was first released in 2014?
+- How would you identify and resolve a retain cycle?
+- How would you explain ARC to a new iOS developer?
+- What is reference counting and how does it work in iOS?
+- What is a strong reference and a weak reference in iOS?
+
+## class Stragey 
+- Can you talk me through some interesting code you wrote recently?
+- What features of recent iOS versions were you most excited to try?
+- Design a feature for a single screen that contains a button to complete car booking from the API request to the user view.
+- Which method do you prefer to send data from one screen to another? What if you have to show a value from Screen A in Screen 10 in the deep navigation?
+- What do you think is a sensible minimum iOS deployment target?  Suggested approach: Unless you have specific needs, a safe answer is Apple’s: “the current version minus 1.” Note that e-commerce companies – i.e., sometimes iOS n-2 that's enough to cause a significant revenue hit if they were lost.
+
+## Hands-on
+- https://www.programiz.com/swift/online-compiler/
+- Help me define a Swift function that takes an integer array, filters the list by odd numbers, and prints all the numbers?
+
+### Code 1 : use mutating
+- Make this piece of code compile.
+```
+struct Stack {
+    var numbers = [1, 2, 3]
+
+    func append(_ number: Int) {
+        numbers.append(number)
+    }
+}
+
+var intStack = Stack()
+intStack.append(4)
+print(intStack.numbers)
+```
+
+### Code 2 : use Equatable 
+- Make this piece of code compile.
+```
+struct User {
+
+    let firstName: String
+    let lastName: String
+
+}
+
+```
+
+hint 
+```
+struct User: Equatable {
+
+    let firstName: String
+    let lastName: String
+
+    static func == (lhs: User, rhs: User) -> Bool {
+        return lhs.firstName  rhs.firstName && lhs.lastName  rhs.lastName
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
